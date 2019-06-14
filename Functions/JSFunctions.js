@@ -51,3 +51,7 @@ function git(){
 function optidemo(){
 	window.open('../../OptiTest/index.php');
 }
+
+function youtubemp3(){
+	window.open('https://ytmp3.cc/');
+}

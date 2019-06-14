@@ -52,7 +52,7 @@
 	<div class="music-test">
 		<?php
 			$note = $_SESSION['music'][0];
-			echo"<img src=\"../Music/$note.jpg\" alt=\"Note $note\" ></img>";
+			echo"<img src=\"../Features/Music/$note.jpg\" alt=\"Note $note\" ></img>";
 		?>
 		<br>
 		What letter does this symbol represent?

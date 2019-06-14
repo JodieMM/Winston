@@ -1,0 +1,15 @@
+/*--- MUSIC TEST STYLES ---*/
+.music-test{
+	margin-top: 20px;
+	
+}
+
+.music-test img{
+	width: 30%;
+}
+
+.music-test input{
+	margin-top: 20px;
+	font-family: 'Dosis', sans-serif;
+    font-size: 28px;
+}

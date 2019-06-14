@@ -23,11 +23,11 @@
 		
 		// Check for high score
 		if ($num_right == count($_SESSION['results'])){
-			$file = fopen("../Music/highscore.txt", "r");
+			$file = fopen("../Features/Music/highscore.txt", "r");
 			$high = floatval(fgets($file));
 			fclose($file);
 			if ($high > $_SESSION['time']){
-				$file = fopen("../Music/highscore.txt", "w");
+				$file = fopen("../Features/Music/highscore.txt", "w");
 				fwrite($file, $_SESSION['time']);
 				fclose($file);
 				echo "<p>This is a new high score! Congratulations!</p>";
@@ -42,7 +42,7 @@
 		</tr>
 		<?php
 			for ($x = 0; $x < count($_SESSION['results']); $x++){
-				echo"<tr><td><img src='../Music/".$_SESSION['questions'][$x].".jpg'></img></td>";
+				echo"<tr><td><img src='../Features/Music/".$_SESSION['questions'][$x].".jpg'></img></td>";
 				echo"<td>".$_SESSION['questions'][$x]."</td>";
 				echo"<td>".$_SESSION['results'][$x]."</td></tr>";
 			}

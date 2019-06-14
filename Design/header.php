@@ -2,10 +2,12 @@
 <head>
 	<title>Winston</title>
 	<link href="../Design/style.css" rel="stylesheet" type="text/css"/>
+	<link href="../Features/Music/musicstyle.css" rel="stylesheet" type="text/css"/>
+	<link href="../Features/D&D/ddstyle.css" rel="stylesheet" type="text/css"/>
 	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 	<link rel="icon" href="../Design/logo.png">
 	<script type="text/javascript" src="../Functions/JSFunctions.js"></script>
-	<script type="text/javascript" src="../Functions/dd.js"></script>
+	<script type="text/javascript" src="../Features/D&D/dd.js"></script>
 </head>
 
 <body>

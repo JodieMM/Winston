@@ -37,7 +37,7 @@ function addweapon(){
 }
 
 function drawweapon(index){
-	var source = (weapons[index][1] == "sword" || weapons[index][1] == "Sword") ? "../Design/sword.jpg" : "../Design/bow.jpg";
+	var source = (weapons[index][1] == "sword" || weapons[index][1] == "Sword") ? "../Features/D&D/sword.jpg" : "../Features/D&D/bow.jpg";
 	document.getElementById("weapons").innerHTML +=
 	"<p>"+weapons[index][0]+"<img src="+source+" onclick=\"rollweapon("+index+")\"/></p>";
 }

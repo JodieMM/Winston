@@ -2,23 +2,19 @@
 	include '../Design/header.php';
 ?>
 
-<section class="content">
+<div class="content">
 	<h1> Code Helpers </h1>
-	I've put some links here for your convenience, Ma'am.
-	<table class="options">
-		<tr>
-			<td onclick="colour()">Colour Picker</a></td>
-			<td onclick="github()">GitHub</a></td>
-			<td onclick="git()">Git Commands</a></td>
-			<td onclick="regex()">RegExr</a></td>
-		</tr>
-		<tr>
-			<td onclick="optidemo()">Optimator Testing</a></td>
-		</tr>
-			
-	</table>
-	
-</section>
+	<p>I've put some links here for your convenience, Ma'am.</p>
+	<div id="option-button-row">
+		<div id="option-button" onclick="colour()">Colour Picker</div>
+		<div id="option-button" onclick="github()">GitHub</div>
+		<div id="option-button" onclick="git()">Git Commands</div>
+		<div id="option-button" onclick="regex()">Regex</div>
+	</div>
+	<div id="option-button-row">
+		<div id="option-button" onclick="optidemo()">Optimator Testing</div>
+	</div>	
+</div>
 
 <?php
 	include '../Design/footer.php';

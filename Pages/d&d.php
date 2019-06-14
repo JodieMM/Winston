@@ -24,7 +24,7 @@
 	</div>
 	
 	<div class="titleweapons">
-		<img src="../Design/d&dlogo.png" alt="D&D Logo"/>
+		<img src="../Features/D&D/d&dlogo.png" alt="D&D Logo"/>
 		<div class="weapons" id="weapons"></div>
 		<div class="weaponInfo">
 			<form action="#" onsubmit="addweapon()">
