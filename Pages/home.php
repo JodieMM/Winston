@@ -19,6 +19,9 @@
 	</div>	
 	<div id="option-button-row">
 		<div id="option-button" onclick="youtubemp3()">Youtube to MP3</div>
+		<div id="option-button" onclick="duolingo()">DuoLingo</div>
+		<div id="option-button" onclick="da()">DeviantArt</div>
+		<div id="option-button" onclick="singing()">Singing Practice</div>
 	</div>
 </div>
 

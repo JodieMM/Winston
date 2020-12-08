@@ -4,8 +4,8 @@
 // -- LINKS --
 
 function socialMediaLinks(){
-	window.open('https://www.facebook.com/');
-	window.open('https://mail.google.com/mail/ca/u/0/#inbox');
+	facebook();
+	gmail();
 }
 
 function facebook(){
@@ -33,7 +33,7 @@ function github(){
 }
 
 function aws(){
-	window.open('https://us-west-2.console.aws.amazon.com/console/home?nc2=h_ct&region=us-west-2&src=header-signin#');
+	window.open('https://ap-southeast-2.console.aws.amazon.com/console/home?region=ap-southeast-2');
 }
 
 function colour(){
@@ -54,4 +54,17 @@ function optidemo(){
 
 function youtubemp3(){
 	window.open('https://ytmp3.cc/');
+}
+
+function duolingo(){
+	window.open('https://www.duolingo.com/');
+}
+
+function da(){
+	window.open('https://www.deviantart.com/');
+}
+
+function singing(){
+	window.open('https://www.youtube.com/playlist?list=PL564skpX2Vpthcnw4uSEoFhTA8H38xV9V');
+	//window.open('https://trello.com/c/HAbStDgx/111-singing');
 }

@@ -1,4 +1,4 @@
 <div class="footer">
-		Part of the Winston AI project. Created by Mojo as part of Opti.
+		Part of the Winston AI project. &copy; Jodie Muller.
 </div>
 </body>
