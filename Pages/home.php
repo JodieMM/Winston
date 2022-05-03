@@ -9,10 +9,11 @@
 		<div id="option-button" onclick="socialMediaLinks()">Social Media</div>
 		<div id="option-button" onclick="facebook()">Facebook</div>
 		<div id="option-button" onclick="gmail()">Gmail</div>
-		<div id="option-button" onclick="youtube()">YouTube</div>
-	</div>
-	<div id="option-button-row">
 		<div id="option-button" onclick="trello()">Trello</div>
+		
+	</div>
+	<!-- <div id="option-button-row">
+		<div id="option-button" onclick="youtube()">YouTube</div>
 		<div id="option-button" onclick="twitter()">Twitter</div>
 		<div id="option-button" onclick="github()">GitHub</div>
 		<div id="option-button" onclick="aws()">AWS</div>
@@ -22,7 +23,7 @@
 		<div id="option-button" onclick="duolingo()">DuoLingo</div>
 		<div id="option-button" onclick="da()">DeviantArt</div>
 		<div id="option-button" onclick="singing()">Singing Practice</div>
-	</div>
+	</div> -->
 </div>
 
 <?php
